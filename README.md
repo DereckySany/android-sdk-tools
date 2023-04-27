@@ -1,8 +1,12 @@
-Building platform-tools and build-tools for Android, such as `aapt aapt2 aidl zipalign adb fastboot` ... etc</br>
+# Android sdk tools
+*see in other languages [Portuquese](/README-PT.md)*
+
+### What is it for
+Building platform-tools and build-tools for Android, such as `aapt aapt2 aidl zipalign adb fastboot` ... etc.
 
 If you need other tools, please refer to existing tools to add CMake file
 
-Currently only test the aarch64 architecture</br>
+*Currently only test the **aarch64 architecture***
 
 I haven't tested other architectures, so I can't guarantee it will work, although I have support for cross-compiling
 
