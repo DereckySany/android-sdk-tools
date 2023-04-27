@@ -1,20 +1,19 @@
-# Android sdk tools
+# Android Sdk Tools
 *see in other languages [Portuquese](/README-PT.md)*
 
 ### What is it for
-Building platform-tools and build-tools for Android, such as `aapt aapt2 aidl zipalign adb fastboot` ... etc.
+* Building platform-tools and build-tools for Android, such as `aapt aapt2 aidl zipalign adb fastboot` ... etc.
 
-If you need other tools, please refer to existing tools to add CMake file
+*If you need other tools, please refer to existing tools to add CMake file.*
 
-*Currently only test the **aarch64 architecture***
-
-I haven't tested other architectures, so I can't guarantee it will work, although I have support for cross-compiling
+*Currently only test the **aarch64 architecture***.
+*I haven't tested other architectures, so I can't guarantee it will work, although I have support for cross-compiling*
 
  **** 
  
 ### How to build
 
-Method one, download the `release/sdk-tools-source.zip` directly to compile, the source code has been patched
+* Method one, download the `release/sdk-tools-source.zip` directly to compile, the source code has been patched
 
 ```bash
 # arch [armeabi-v7a, arm64-v8a, x86, x86_64]
@@ -41,7 +40,7 @@ python build.py \
 
  **** 
  
-Method two, start from scratch，git clone the source code, then patch it manually</br>
+* Method two, start from scratch，git clone the source code, then patch it manually</br>
 Why patch it manually? the main reason is the aosp master branch is updated very quickly,
 so the patch files may be incompatible
 
