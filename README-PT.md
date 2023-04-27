@@ -4,10 +4,9 @@
 ### Para que serve
 * Construi ferramentas de plataforma e ferramentas de construção para Android, como `aapt aapt2 aidl zipalign adb fastboot` ... etc.
 
-*Se você precisar de outras ferramentas, consulte as ferramentas existentes para adicionar o arquivo CMake*
+*Se você precisar de outras ferramentas, consulte as ferramentas existentes para adicionar o arquivo CMake*.
 
-*Atualmente, testado apenas a **arquitetura aarch64***
-
+*Atualmente, testado apenas a **arquitetura aarch64***.
 *Não testado para outras arquiteturas, então não posso garantir que funcionará, embora tenha suporte para compilação cruzada (cross-compiling)*
 
  **** 
