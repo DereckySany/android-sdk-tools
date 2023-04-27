@@ -1,16 +1,20 @@
-### Construindo ferramentas de plataforma e ferramentas de construção para Android, como `aapt aapt2 aidl zipalign adb fastboot` ... etc</br>
+# Android Sdk Tools
+*veja em outras linguagens [English](/README.md)*
 
-Se você precisar de outras ferramentas, consulte as ferramentas existentes para adicionar o arquivo CMake
+### Para que serve
+* Construi ferramentas de plataforma e ferramentas de construção para Android, como `aapt aapt2 aidl zipalign adb fastboot` ... etc.
 
-Atualmente, teste apenas a arquitetura aarch64/br>
+*Se você precisar de outras ferramentas, consulte as ferramentas existentes para adicionar o arquivo CMake*
 
-Não testei outras arquiteturas, então não posso garantir que funcionará, embora tenha suporte para compilação cruzada (cross-compiling)
+*Atualmente, testado apenas a **arquitetura aarch64***
+
+*Não testado para outras arquiteturas, então não posso garantir que funcionará, embora tenha suporte para compilação cruzada (cross-compiling)*
 
  **** 
  
 ### Como construir
 
-Método um, baixe o `release/sdk-tools-source.zip` diretamente para compilar, o código-fonte foi corrigido
+- Método um, baixe o `release/sdk-tools-source.zip` diretamente para compilar, o código-fonte foi corrigido
 
 ```bash
 # arch [armeabi-v7a, arm64-v8a, x86, x86_64]
@@ -37,7 +41,7 @@ python build.py \
 
  **** 
  
-Método dois, comece do zero, git, clone o código-fonte e faça o patch manualmente
+- Método dois, comece do zero, git, clone o código-fonte e faça o patch manualmente
 Por que fazer o patch manualmente? o principal motivo é que a ramificação mestre aosp é atualizada muito rapidamente, portanto, os arquivos de patch podem ser incompatíveis
 
 ```bash
